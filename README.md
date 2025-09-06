@@ -9,8 +9,24 @@ place the nano_banano_flat.py file in  ComfyUI/custom_nodes/
 
 pip install if not already present
 
-        google-generativeai
+        google-generativeai (google-genai)
         torch
         pillow
         numpy
         requests
+
+NOTE:
+
+stuart: 06/09/2025
+
+use GenAI SDK NOT generativeai
+
+Python (current): google-genai → official SDK. 
+PyPI
+
+The older libs are now legacy/deprecated:
+
+Python google-generativeai → legacy, migrate to google-genai. 
+PyPI
+
+Google renamed/merged to a unified “Google GenAI SDK” with Gemini 2.0; docs and quickstarts now point to genai
