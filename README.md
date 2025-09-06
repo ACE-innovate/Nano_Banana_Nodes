@@ -7,7 +7,7 @@ Installation
 
 place the nano_banano_flat.py file in  ComfyUI/custom_nodes/
 
-pip install
+pip install if not already present
 
         google-generativeai
         torch
