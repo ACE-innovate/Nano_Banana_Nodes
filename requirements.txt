@@ -1,0 +1,5 @@
+google-genai
+torch
+pillow
+numpy
+requests
