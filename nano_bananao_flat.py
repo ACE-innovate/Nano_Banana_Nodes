@@ -130,7 +130,7 @@ class NanoBananaStandalone:
             for i in range(batch_count):
                 try:
                     resp = client.models.generate_content(
-                        model="gemini-2.5-flash-image-preview",
+                        model="gemini-2.5-flash-image",
                         contents=contents,
                         config=types.GenerateContentConfig(temperature=temperature),
                     )
